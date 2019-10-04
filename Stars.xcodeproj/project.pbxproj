@@ -13,6 +13,8 @@
 		87F0AF072346D9A700EFC974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F0AF052346D9A700EFC974 /* Main.storyboard */; };
 		87F0AF092346D9A800EFC974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F0AF082346D9A800EFC974 /* Assets.xcassets */; };
 		87F0AF0C2346D9A800EFC974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F0AF0A2346D9A800EFC974 /* LaunchScreen.storyboard */; };
+		87F0AF142346E24D00EFC974 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0AF132346E24D00EFC974 /* Star.swift */; };
+		87F0AF162346E37A00EFC974 /* StarModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0AF152346E37A00EFC974 /* StarModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		87F0AF082346D9A800EFC974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87F0AF0B2346D9A800EFC974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87F0AF0D2346D9A800EFC974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F0AF132346E24D00EFC974 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		87F0AF152346E37A00EFC974 /* StarModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				87F0AEFF2346D9A700EFC974 /* AppDelegate.swift */,
 				87F0AF012346D9A700EFC974 /* SceneDelegate.swift */,
 				87F0AF032346D9A700EFC974 /* StarsViewController.swift */,
+				87F0AF132346E24D00EFC974 /* Star.swift */,
+				87F0AF152346E37A00EFC974 /* StarModelController.swift */,
 				87F0AF052346D9A700EFC974 /* Main.storyboard */,
 				87F0AF082346D9A800EFC974 /* Assets.xcassets */,
 				87F0AF0A2346D9A800EFC974 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F0AF162346E37A00EFC974 /* StarModelController.swift in Sources */,
 				87F0AF042346D9A700EFC974 /* StarsViewController.swift in Sources */,
 				87F0AF002346D9A700EFC974 /* AppDelegate.swift in Sources */,
 				87F0AF022346D9A700EFC974 /* SceneDelegate.swift in Sources */,
+				87F0AF142346E24D00EFC974 /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
